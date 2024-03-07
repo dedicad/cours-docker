@@ -1,59 +1,73 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1682687220067-dced9a881b56?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
   ## Slidev Starter Template
-  Cours d'introduction aux réseaux et à docker CODA School.
+  Presentation slides for developers.
 
+  Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
+defaults:
+  foo: true
 transition: slide-left
-title: Introduction aux réseaux et à docker
+title: Welcome to Slidev
 mdc: true
 monaco: true
 monacoTypesSource: local # or cdn or none
 ---
 
-# Introduction aux réseaux et à docker
+# Welcome to Slidev
 
-Marius Ambayrac, 2-3 Mai 2024
+Presentation slides for developers
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    <carbon:arrow-right class="inline"/>
+    Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
----
-transition: fade-out
-hideInToc: true
----
-<div class="flex">
-  <img
-    class="w-50 border-3 rounded-80"
-    src="assets/Profil.png"
-    alt="marius_ambayrac"
-  />
-  <div class="mx-20 mt-20">
-    <div class="text-3xl">
-    Marius Ambayrac
-    </div>
-    Head of Engineering @Gojob
-  </div>
+<div class="abs-br m-6 flex gap-2">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
 </div>
 
-<br> </br>
-<br> </br>
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
 
-- Introduction à Linux (2 jours)
-- Gestion de projets Informatiques (5 jours)
-- Introduction à Docker et à la conteneurisation (2 jours)
+---
+transition: fade-out
+---
+
+# What is Slidev?
+
+Slidev is a slides maker and presenter designed for developers, consist of the following features
+
+- 📝 **Text-based** - focus on the content with Markdown, and then style them later
+- 🎨 **Themable** - theme can be shared and used with npm packages
+- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+- 🤹 **Interactive** - embedding Vue components to enhance your expressions
+- 🎥 **Recording** - built-in recording and camera view
+- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
+- 🛠 **Hackable** - anything possible on a webpage
+
+<br>
+<br>
+
+Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 <!--
-Vous me reverrez également pour vos projets en autonomie en fin d'année ou je viendrai 1 jours pour vous accompagner.
+You can have `style` tag in markdown to override the style for the current page.
+Learn more: https://sli.dev/guide/syntax#embedded-styles
 -->
 
 <style>
@@ -68,9 +82,12 @@ h1 {
 }
 </style>
 
+<!--
+Here is another comment.
+-->
+
 ---
-transition: fade-out
-hideInToc: true
+layout: default
 ---
 
 # Table of contents
