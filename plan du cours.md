@@ -56,9 +56,25 @@ Sujets d'exposés :
 
 
 TODO : 
-- Lister les différens sujet d'exposé : 7 sujets maximum
-- Me renseigner sur les différents sujets d'exposé
-- Sur chaque sujet, avoir un mini descriptif de questions, de buzzwords à creuser, etc.
+Jour 1 : 
+[ ] Faire les slides pour addresses IP : V4 et V6
+[ ] Faire les slides pour addresses MAC
+[ ] Faire les slides pour DNS
+[ ] Faire le TP jour 1 sur le réseau
+[ ] Faire les slides pour les 30mn d'intro à docker
+
+
+Jour 2 : 
+[x] Lister les différens sujet d'exposé : 7 sujets maximum
+[ ] Me renseigner sur les différents sujets d'exposé
+[ ] Sur chaque sujet, avoir un mini descriptif de questions, de buzzwords à creuser, etc.
+[ ] Me faire un petit excel rapide pour noter sur 8 les exposés (4 critères sur 2 points chacun)
+  - Communication
+  - Clarté des recherches et informations
+  - Qualité techniques
+  - Profondeur technique
+
+
 
 
 Bonus : 

@@ -1,4 +1,22 @@
 # Les sujets des exposés
+
+<p class="opacity-90 border-1 border-separate p2">Vous avez toute l'après-midi pour préparer des exposés. Vous allez choisir vos groupes (de 3 à 4 personnes) et nous ferons les présentations demain matin.</p>
+
+**Les différents éléments de consignes:**
+- 10 min de préparation + 10 minutes de questions
+- Démonstrations d'exemples, et affichage de code
+- Vous utilisez ce que vous voulez pour faire les slides (Power Point, google slides, slidev, slides.com, etc.)
+- Posez des questions pendant les autres exposés :)
+
+<br/>
+<br/>
+<p class="opacity-90 border-1 border-separate p2">Votre exposé, ainsi que vos interactions pendant les autres présentations, conteront pour 8 points de la notre finale du cours (sur 20).</p>
+
+---
+transition: fade-out
+hideInToc: true
+---
+
 ### Le stockage des images docker
 
 <br/>
@@ -107,7 +125,7 @@ hideInToc: true
 ### Les volumes de Docker : partager du contenu entre le container et le système
 
 <br/>
-<p class="opacity-90 border-1 border-separate p2">Préparez un exposé de 10mn + 10mn de questions sur le concept de volumes avec Docker./p>
+<p class="opacity-90 border-1 border-separate p2">Préparez un exposé de 10mn + 10mn de questions sur le concept de volumes avec Docker.</p>
 
 Voici quelques pistes de réflexion pour amorcer le sujet : 
 - Où est stocké un volume Docker ?
@@ -151,8 +169,3 @@ Voici quelques pistes de réflexion pour amorcer le sujet :
 - Est-ce que je peux partager des fichiers avec mon container ?
 - Comment arrêter mon container ?
 
-
----
-transition: fade-out
-hideInToc: true
----
