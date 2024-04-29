@@ -24,15 +24,17 @@
 
 
 - Jour 2
-  - passage de chaque groupe sur les différents sujets (10mn par groupe + 10mn de questions)
+  - passage de chaque groupe sur les différents sujets (10mn par groupe + 10mn de questions)  
+    - Les exposés compteront pour 8 points de la note finale du cours.   
   - on compte toute la matinée pour les différents passages (~3h) même si cela peut-être plus court.
   - Après-midi : 
     - TP 13h30 -> 16h : Docker en pratique
-      - Préparer un gros TP (s'inspirer de ce que j'avais demandé)
+      - Préparer un gros TP (s'inspirer de ce que j'avais demandé pendant Intro Linux)
       - Fonctionnalité avancée avec du docker-compose
       - Idée de Bonus : 
         - Utilisation d'un autre système de contenerisation (kaniko)
         - Déployer dans le cloud (lequel pour avoir un truc gratuit ?) votre container
+        - Explication de comment fonctionne le routage (switch) et questions précises sur un cas d'exemple
     - 16h : QCM 1h (difficile) sur Docker
   
   
@@ -57,3 +59,8 @@ TODO :
 - Lister les différens sujet d'exposé : 7 sujets maximum
 - Me renseigner sur les différents sujets d'exposé
 - Sur chaque sujet, avoir un mini descriptif de questions, de buzzwords à creuser, etc.
+
+
+Bonus : 
+
+- Fonctionnement d'un NAT
