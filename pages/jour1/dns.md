@@ -1,56 +1,43 @@
 # Gérer son domaine avec un DNS
-### Qu'est ce qu'un système d'exploitation ?
 
-<br/>
-<p v-click class="opacity-90 border-1 border-separate p2">"Un système d'exploitation est un logiciel qui pilote les dispositifs matériels et reçoit des instructions de l'utilisateur."</p>
+<p v-click class="opacity-90 border-1 border-separate p2">Le DNS (Domain Name System) est un service distribué qui associe un nom de domaine à une adresse IP</p>
 
-<div v-click>
-<br/>
 
-### Les grandes catégories de systèmes d'exploitations
-<br/>
-
+<div class="flex flex-row justify-around">
+<div v-after>
+```mermaid {theme: 'neutral', scale: 0.5}
+graph TD
+A[Ordinateur] -- coda.school --> B[Requête DNS]
+B --> C[Serveur DNS]
+C --> D[Interprétation de la requête]
+D --> E[Réponse DNS]
+E -- Je connais ce NDD, voici l'IP --> A
+```
 </div>
-
-
-<div class="flex flex-row justify-between">
-<div>
-<img
-  v-click
-  class="w-60 border-rounded rounded-4"
-  src="https://www.meilleure-innovation.com/wp-content/uploads/2022/02/linux.png"
-  alt=""
-/>
+<div v-after>
+```mermaid {theme: 'neutral', scale: 0.5}
+graph TD
+A[Ordinateur] --> F[Serveur cible]
+```
 </div>
-<div>
-
-<img
-  v-after
-  class="w-60 border-rounded rounded-4"
-  src="https://news.microsoft.com/wp-content/uploads/prod/sites/113/2017/05/Windows-10-Logo.png"
-  alt=""
-/>
+<div v-click class="w-40 text-xs">
+  <div>
+  Ex: Lorsqu'on tape <span v-mark.circle.orange="2">coda.school</span>, on fait appel à 1 serveur DNS
+  Ce serveur va alors nous répondre en indiquant l'IP du serveur auquel on cherche à accéder. Notre ordinateur va donc ensuite pouvoir faire la requête directement à 
+  </div>
+  <div>
+  <div v-mark.highlight.orange="2">l'IP demandé.</div>
+  </div>
 </div>
-<img
-  v-after
-  class="w-40 border-rounded rounded-4"
-  src="https://cdn-icons-png.flaticon.com/512/2/2235.png"
-  alt=""
-/>
 </div>
 
 
 
 
+<!-- 
 
-
-<!-- Poser la question oralement, laisser intéragir et puis aller dans l'animation 
-
-Mentionner également Android, OS Iphone, etc.
-
-Enchainer par quelques questions : 
-- Qui a déjà utilisé un ordinateur sous Linux ?
-- Qui a déjà installé un dual boot ?
+Sur votre navigateur Internet, vous tapez google.com : vous n'avez pas de besoin de connaitre l'IP du serveur qui va vous répondre.
+Pensez annuaire / répertoire
 -->
 
 
@@ -59,38 +46,41 @@ transition: fade-out
 hideInToc: true
 ---
 
-# Origine et philosophie Unix / Linux
-### Concept de distribution 
+# Hiérarchie du DNS
 
-<p v-click class="opacity-90 border-1 border-separate p2">Au dessus de la base Unix, plusieurs distributions ont été développés</p>
-
-<div v-click>
-
-Elles comportent des variations graphiques, de paquets installés par défault, etc. 
-
-Les principales à citer sont : 
-
-- Debian
-- Ubuntu
-- Arch
-- Fedora
-- etc.
+<div>
+```mermaid {scale: 0.7}
+graph TB
+  a((www.coda-school.ymag.cloud))
+  a -- Sous-domaine --> b[www]
+  a -- Nom d'hôte ou de second niveau --> c[coda-school]
+  a -- Sous-domaine de second niveau --> d[ymag]
+  a -- Domaine de premier niveau (TLD) --> e[cloud]
+```
 
 </div>
+</br>
+<p v-click class="opacity-90 border-1 border-separate p2">Les notions à retenir : Racine, top-level domain, domaine, sous-domaine</p>
+<p v-after class="opacity-90 border-1 border-separate p2">Le nom est résolu de <span class="font-bold">droite à gauche</span>, en partant de la racine</p>
+<!-- 
+Exemple de hiérarchie de DNS 
+-->
 
 ---
 transition: fade-out
 hideInToc: true
 ---
 
-# Origine et philosophie Unix / Linux
-### L'utilisation intensive de Linux pour les serveurs de déploiements
+# Comment acheter un nom de domaine ?
 
-<p v-click class="opacity-90 border-1 border-separate p2">De part sa gratuité, le noyau Linux est très largement utilisé. Notamment dans sur les serveurs de déploiements</p>
+Vous aurez probablement besoin à un moment d'acheter et de gérer un nom de Domaine. (Gérer les A-Record, C-Name, etc.)
 
-<br/>
-Linux est petit (avec beaucoup de versions light / small / alpine), modulaire et est donc très adéquat pour opérer des Virtuals Machines (VMs), des containers ou autres systèmes dans le Cloud / déployé.
-<!--
-Un serveur de déploiement est quelque chose qui permet de d'alimenter en donnée un site web.
+Parmis les fournisseurs connus en France pour les noms de domaines, on trouve : 
+- Gandi
+- OVH
+- GoDaddy
+
+
+<!-- 
+de 10€ par an (voire gratuit) à beaucoup (plusieurs milliers d'euros annuels)
 -->
-

@@ -5,7 +5,6 @@
 
 <br/>
 
-
 <div class="flex flex-row justify-between">
 <div>
 <img
