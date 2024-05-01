@@ -57,8 +57,8 @@ Sujets d'exposés :
 
 TODO : 
 Jour 1 : 
-[ ] Faire les slides pour addresses IP : V4 et V6
-[ ] Faire les slides pour addresses MAC
+[x] Faire les slides pour addresses IP : V4 et V6
+[x] Faire les slides pour addresses MAC
 [ ] Faire les slides pour DNS
 [ ] Faire le TP jour 1 sur le réseau
 [ ] Faire les slides pour les 30mn d'intro à docker

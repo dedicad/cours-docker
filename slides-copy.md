@@ -549,10 +549,6 @@ database "MySql" {
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
----
-src: ./pages/multiple-entries.md
-hide: false
----
 
 ---
 
