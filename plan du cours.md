@@ -60,7 +60,7 @@ Jour 1 :
 [x] Faire les slides pour addresses IP : V4 et V6
 [x] Faire les slides pour addresses MAC
 [x] Faire les slides pour DNS
-[ ] Faire le TP jour 1 sur le réseau
+[x] Faire le TP jour 1 sur le réseau
 [x] Faire les slides pour les 30mn d'intro à docker
 
 

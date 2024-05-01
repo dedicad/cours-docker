@@ -247,7 +247,7 @@ hideInToc: true
 
 </br>
 
-<div class="text-xs">
+<div v-after class="text-xs">
 
 **Fonctionnement :** 
 
@@ -284,7 +284,7 @@ La table de routage est une table de correspondance entre l’adresse de la mach
 </div>
 </br>
 
-<a  href="https://www.it-connect.fr/chapitres/a-la-decouverte-de-ladresse-ethernet-et-darp/">
+<a v-after href="https://www.it-connect.fr/chapitres/a-la-decouverte-de-ladresse-ethernet-et-darp/">
 Pour aller plus Loin
 </a>
 
