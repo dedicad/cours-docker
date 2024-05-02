@@ -1,9 +1,9 @@
 # Votre adresse MAC est-elle unique ?
 
 <br/>
-<p v-click class="opacity-90 border-1 border-separate p2">Une adresse MAC (Media Access Control1), parfois nommée adresse physique2, est un identifiant physique stocké dans une carte réseau ou une interface réseau similaire. </p>
+<p v-click class="opacity-90 border-1 border-separate p2">Une adresse MAC (Media Access Control1), parfois nommée adresse physique, est un identifiant physique stocké dans une carte réseau ou une interface réseau similaire. </p>
 
-<p v-click class="opacity-90 border-1 border-separate p2">L'adresse MAC est attributé par le constructeur (conventions). Mais peut-être changé de façon logicielle :</p>
+<p v-click class="opacity-90 border-1 border-separate p2">L'adresse MAC est attribué par le constructeur (conventions). Mais peut-être changé de façon logicielle :</p>
 
 <div class="mb-30" v-click>
 

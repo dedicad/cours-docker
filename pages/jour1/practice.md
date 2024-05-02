@@ -5,9 +5,9 @@
 
 1. Citez 3 exemples de masques de sous-réseau
 2. Soit l'adresse 192.16.5.133/29. Combien de bits sont utilisés pour identifier la partie réseau ? Combien de bits sont utilisés pour identifier la partie hôte ?
-3. Quelle est l'adresse du réseau auquel appartien l'IP 210.205.52.24/12 
-4. Quelle est l'adresse du réseau auquel appartien l'IP 210.205.52.24/8 
-5. Quelle est l'adresse du réseau auquel appartien l'IP 210.160.12.4/16 
+3. Quelle est l'adresse du réseau auquel appartient l'IP 210.205.52.24/12 
+4. Quelle est l'adresse du réseau auquel appartient l'IP 210.205.52.24/8 
+5. Quelle est l'adresse du réseau auquel appartient l'IP 210.160.12.4/16 
 
 ---
 transition: fade-out
@@ -71,7 +71,7 @@ hideInToc: true
 1. Utilisez [l'éditeur live de Mermaid](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNptkd1Kw0AQhV9lnCuFpmS3RXSQlNqCVGhN9U5ysyYTu9Bk6_4IUvouvosv5qalVNG9mj18czgzs8XSVIyEjt8CtyVPtXq1qilaiG9hPIN5Zwv5RPTyiSSY6roOTpsWzm-tUVWpnL840JFJkmxPLYMGBQWKa9kXl1f9tC8LhNHNi82m2rNL1gxfn78AUeDRRiZZtBEE9wwuaNdJXessJ_jh2Enz8YQgTUkIkpIGAxoOKZX_pCeYa8fALZSqXDGMH_NT6uyQOp8t7mD0J0X-EOUz7GHDtlG6itvadlCBfsUNF0ixrLhWYe27IXYRVcGbp4-2RPI2cA_DplL-uFykWq1dVDeqfTbm9OdKe2Pnh4vsD7P7Bh3decA) pour expliquer les requêtes ARP dans le cas de 3 ordinateur dans la configuration suivante : 
    1. PC1 et PC2 partagent le même réseau A
    2. PC2 et PC3 partagent le même réseau B
-   3. PC1 est donc présent sur les 2 réseaux
+   3. PC2 est donc présent sur les 2 réseaux
    4. PC1 cherche à joindre l'adresse IP de PC3 mais ne peut pas communiquer directement avec lui lors du Broadcast
 5. Bonus : A quoi ressemble la table ARP du PC2 après les échanges
 
@@ -93,7 +93,7 @@ transition: fade-out
 hideInToc: true
 ---
 
-### D. Bonus Réseau 2
+### G. Bonus Réseau 2
 <br/>
 
 1. Montez votre propre serveur DNS en local avec Dnsmasq. Voici un [lien pour aider](https://www.howtogeek.com/devops/how-to-run-your-own-dns-server-on-your-local-network/)
